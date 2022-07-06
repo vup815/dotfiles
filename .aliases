@@ -1,0 +1,7 @@
+alias top="htop"
+alias cat="bat"
+
+alias gs="git stash"
+alias gcne="git commit --amend --no-edit"
+alias gmc="git merge --continue"
+alias grc="git rebase --continue"
