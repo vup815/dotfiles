@@ -1,4 +1,4 @@
-files="zshrc ideavimrc aliases func"
+files="zshrc ideavimrc aliases vimrc func"
 
 homedir=~
 dotfiledir=~/dotfiles
