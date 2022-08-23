@@ -7,7 +7,7 @@ brew "bat"
 brew "exa"
 brew "git" 
 brew "htop" 
-brew "maven 
+brew "maven"
 brew "mysql" 
 brew "redis"
 brew "zsh"
