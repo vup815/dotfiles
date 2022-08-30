@@ -1,18 +1,20 @@
 brew install "bat" 
 brew install "exa"
 brew install "htop" 
+brew install openjdk@8
 brew install "maven"
 brew install "mysql" 
 brew install "redis"
 brew install "zsh"
 brew install "font-agave-nerd-font"
+brew install npm
 
 brew install "appcleaner"
 brew install "intellij-idea"
 brew install "nosqlbooster-for-mongodb"
 brew install "dbeaver-community"
 brew install "iterm2"
-brew install "keyboardcleaner"
+brew install "keyboard-cleaner"
 brew install "postman"
 brew install "spotify"
 brew install "standard-notes"
@@ -21,3 +23,5 @@ brew install "visual-studio-code"
 brew install "zoom"
 brew install "vlc"
 brew install "brave-browser"
+brew install homebrew/cask-drivers/logitech-options
+brew install telegram

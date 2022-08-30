@@ -1,6 +1,7 @@
 export ZSH="/Users/$USER/.oh-my-zsh"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home
+export PATH="$PATH:/usr/local/Caskroom/flutter/3.0.5/flutter/bin"
 
 export REDIS_DEV_HOST=redis-sports.innodev.site
 export REDIS_STG_HOST=redis-tiger-stg.ceshi22.com
