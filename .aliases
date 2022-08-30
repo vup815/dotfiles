@@ -6,4 +6,4 @@ alias gcne="git commit --amend --no-edit"
 alias gmc="git merge --continue"
 alias grc="git rebase --continue"
 
-alias gowork="cd /Users/user/Documents/innotech"
+alias gowork="cd /Users/$USER/Documents/innotech"

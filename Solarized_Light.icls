@@ -1,10 +1,10 @@
-<scheme name="Solarized Light" version="142" parent_scheme="Default">
+<scheme name="Solarized Light copy" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2022-07-06T17:42:20</property>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2021.3.0.0</property>
-    <property name="modified">2022-07-06T17:42:30</property>
-    <property name="originalScheme">_@user_Solarized Light</property>
+    <property name="created">2022-08-30T16:42:07</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2022.1.3.0.0</property>
+    <property name="modified">2022-08-30T16:42:23</property>
+    <property name="originalScheme">Solarized Light copy</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="baeeba" />
@@ -254,7 +254,7 @@
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="3865ae" />
+        <option name="FOREGROUND" value="1260d9" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -575,7 +575,7 @@
       <value>
         <option name="FOREGROUND" value="268bd2" />
         <option name="EFFECT_COLOR" value="268bd2" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -1313,12 +1313,12 @@
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="6c71c4" />
+        <option name="FOREGROUND" value="565bb9" />
       </value>
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="6b93c0" />
+        <option name="FOREGROUND" value="71abed" />
       </value>
     </option>
     <option name="IVAR">
@@ -1393,6 +1393,12 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="b58900" />
+      </value>
+    </option>
+    <option name="JAVA_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JAVA_NUMBER">
@@ -1788,7 +1794,7 @@
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="569194" />
+        <option name="FOREGROUND" value="28182" />
       </value>
     </option>
     <option name="LOGCAT_ASSERT_OUTPUT">
@@ -2102,7 +2108,7 @@
     </option>
     <option name="METHOD_CALL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d69962" />
+        <option name="FOREGROUND" value="b47e4e" />
       </value>
     </option>
     <option name="Map key">
