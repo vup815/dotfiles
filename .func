@@ -1,23 +1,8 @@
-createBranch(){
-    git checkout -b feat-Samuel-$1-$2
+cb(){
+    git checkout -b feat-Samuel-$1
 }
 
 gitmsg() {
-    git commit -m "feat($1-$2): $3"
-}
-
-redisDev() {
-    redis-cli -h $REDIS_DEV_HOST
-}
-
-redisStg() {
-    redis-cli -h $REDIS_STG_HOST
-}
-
-mysqlDev(){
-    mysql -h $MYSQL_DEV_HOST -u $MYSQL_USER -p$MYSQL_DEV_PW
-}
-
-mysqlStg(){
-    mysql -h $MYSQL_STG_HOST -u $MYSQL_USER -p$MYSQL_STG_PW
+    branch=$(echo "$(git rev-parse --abbrev-ref HEAD)" | cut -c13-25)
+    git commit -m "feat($branch): $1"
 }

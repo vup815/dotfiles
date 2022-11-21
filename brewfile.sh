@@ -1,3 +1,8 @@
+brew tap homebrew/cask
+brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
+brew tap homebrew/core
+
 brew install "bat" 
 brew install "exa"
 brew install "htop" 
@@ -7,6 +12,7 @@ brew install "mysql"
 brew install "redis"
 brew install "zsh"
 brew install "font-agave-nerd-font"
+brew install font-fira-code
 brew install npm
 
 brew install "appcleaner"

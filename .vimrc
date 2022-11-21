@@ -1,6 +1,3 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
 set shell=/bin/zsh
 
 syntax on
@@ -17,6 +14,11 @@ set nohlsearch
 
 nnoremap j gj
 nnoremap k gk
-
+inoremap { {}<Esc>ha
+inoremap ( ()<Esc>ha
+inoremap [ []<Esc>ha
+inoremap " ""<Esc>ha
+inoremap ' ''<Esc>ha
+inoremap ` ``<Esc>ha
 imap jk <esc>
 
