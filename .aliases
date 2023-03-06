@@ -8,4 +8,6 @@ alias gcne="git commit --amend --no-edit"
 alias gmc="git merge --continue"
 alias grc="git rebase --continue"
 
-alias gowork="cd /Users/$USER/Documents/innotech"
+alias gowork="cd /Users/$USER/Documents/jko"
+alias openappsvc="open /Users/$USER/Documents/jko/jkopay-app-svc -na \"Intellij idea ce\""
+alias openmrm="open /Users/$USER/Documents/jko/jkopay-membership-rank -na \"Intellij idea ce\""

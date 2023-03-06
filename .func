@@ -1,8 +1,13 @@
-cb(){
-    git checkout -b feat-Samuel-$1
-}
-
 gitmsg() {
         branch="$(git rev-parse --abbrev-ref HEAD)" 
             git commit -m "feat($branch): $1"
 }
+
+mrm_sit_db() {
+ mysql -u mrm -pbYm.wsKvni9VDYRcvdj7 -h mysql-single-01.jkopay.sit mrm 
+}
+
+prod_back_db() {
+        sqlcmd -S 210.17.103.211 -d JKOPay -U appsvc -Q "$1"
+}
+
