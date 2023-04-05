@@ -2,6 +2,7 @@ set shell=/bin/zsh
 
 syntax on
 set clipboard+=unnamed 
+set visualbell
 set autoindent
 set number
 set relativenumber

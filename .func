@@ -3,6 +3,6 @@ cb(){
 }
 
 gitmsg() {
-    branch=$(echo "$(git rev-parse --abbrev-ref HEAD)" | cut -c13-25)
-    git commit -m "feat($branch): $1"
+        branch="$(git rev-parse --abbrev-ref HEAD)" 
+            git commit -m "feat($branch): $1"
 }

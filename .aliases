@@ -1,6 +1,7 @@
 alias top="htop"
 alias cat="bat"
 alias l="exa -al"
+alias vim="nvim"
 
 alias gs="git stash"
 alias gcne="git commit --amend --no-edit"
