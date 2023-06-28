@@ -12,13 +12,5 @@ set ignorecase
 set ts=4
 set expandtab
 
-nnoremap j gj
-nnoremap k gk
-inoremap { {}<Esc>ha
-inoremap ( ()<Esc>ha
-inoremap [ []<Esc>ha
-inoremap " ""<Esc>ha
-inoremap ' ''<Esc>ha
-inoremap ` ``<Esc>ha
-imap jk <esc>
+imap ht <Esc>
 
