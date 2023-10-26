@@ -39,6 +39,7 @@ nmap <Space>ra zz:action RearrangeCode<CR>zz:action ReformatCode<CR>zz:action Re
 map <Space>rr :action RenameElement<CR>
 map <Space>ri :action Inline<CR>
 map <Space>rf :action IntroduceField<CR>
+map <Space>rv :action IntroduceVariable<CR>
 map <Space>rp :action IntroduceParameter<CR>
 nmap <Space>sp vi":action IntroduceParameter<CR>
 

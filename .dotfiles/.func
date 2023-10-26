@@ -9,22 +9,19 @@ gfixm() {
 }
 
 mysql_sit() {
-    mysql -u jkopay-appsvc -p'wqe8vgw3efv7xda_BDT' -h mysql-001-m-01.jkos.sit $1
+    mysql -u jkopay-appsvc -p'wqe8vgw3efv7xda_BDT' -h mysql-002-m-01.jkos.sit JKOPay
 }
+
 
 sit_mssql() {
         sqlcmd -S sit-mssql.jkopay.app -d JKOPay_SIT -U appsvc -Q "$1"
 }
 
-maven_skip_test() {
-    mvn clean $1 -Dmaven.test.skip=true
-}
-
-prod_mssql() {
-        sqlcmd -S $1 -d $2 -U $3 -K ReadOnly -Q "$4" 
-} 
-
 ms_sit() {
     mysql -u jkopay-ms-svc -p'uqa9ayg!tzh.ujg6RXD' -h mysql-001-m-01.jkopay.sit member_segmentation
-  }
+}
 
+
+mysql_readonly() {
+  mysql -u v-approle-mysql-002--EPYY8RN9uHk -p'ks6L-u3gBjvOw4YcaPZz' -h mysql-002-s-04.jkopay.prod JKOPay
+}
