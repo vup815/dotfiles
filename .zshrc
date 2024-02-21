@@ -23,14 +23,5 @@ if [ -f "$HB_CNF_HANDLER" ]; then
 source "$HB_CNF_HANDLER";
 fi
 
-
-source /Users/samuel.tseng/.docker/init-zsh.sh || true # Added by Docker Desktop
-
-export _PROJECT_ROOT=/Users/samuel.tseng/Documents/jko/terraform-vault-app
-source ~/env/cobra/vault-app-utils
-export VAULT_TOKEN=hvs.CAESIP5adttmmuFAywpTKOIdbKt1cww_jn6vDpiOZ1GZ5bAJGh4KHGh2cy5TRWtPU2Y2MWtadm9wRWU5Uk12VmFadkI
-export VAULT_ADDR=https://vault-app.jkopay.app
-export PATH=$PATH:~/go/bin
-
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
