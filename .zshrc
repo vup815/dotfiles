@@ -1,12 +1,8 @@
 # Fig pre block. Keep at the top of this file.
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
-export ZSH="/Users/$USER/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel9k/powerlevel9k"
-export JAVA_HOME=/Users/samuel.tseng/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
-export AIRFLOW_HOME=~/airflow
-export SQLCMDPASSWORD=xcYZPszV74Xu
 export PATH=$PATH:$HOME/.local/bin
-export openapikey=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
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(nodeenv status time)
