@@ -11,6 +11,7 @@ ZSH_DISABLE_COMPFIX="true"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
+source "$HOME/.sdkman/bin/sdkman-init.sh"
 source $ZSH/oh-my-zsh.sh
 source ~/.aliases
 
