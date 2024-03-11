@@ -1,6 +1,6 @@
 alias top="htop"
 alias cat="bat"
-alias l="exa -al"
+alias l="ls -la"
 alias vim="nvim"
 alias ts=tmux-sessionizer
 
