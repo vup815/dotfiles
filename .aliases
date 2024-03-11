@@ -9,4 +9,4 @@ alias gcne="git commit --amend --no-edit"
 alias gmc="git merge --continue"
 alias grc="git rebase --continue"
 
-alias w="cd /Users/$USER/Documents/jko"
+alias w="cd /Users/$USER/Documents/opennet"
