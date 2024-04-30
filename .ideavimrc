@@ -20,8 +20,6 @@ nmap n nzzzv
 nmap N Nzzzv
 nmap <Space>y va{Vy
 
-vmap p "_dp
-vmap P "_dP
 vmap < <gv
 vmap > >gv
 vmap J :m '>+1<CR>V
