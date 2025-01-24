@@ -1,6 +1,0 @@
-newpr() {
-     branch="$(git rev-parse --abbrev-ref HEAD)"
-     gh pr create \
-     --base pre-release-encore \
-     --title $branch --body $1
-}

@@ -14,7 +14,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 source $ZSH/oh-my-zsh.sh
 source ~/.aliases
-source ~/.func
 
 HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
 if [ -f "$HB_CNF_HANDLER" ]; then
@@ -23,3 +22,4 @@ fi
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
